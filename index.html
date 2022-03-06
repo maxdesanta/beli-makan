@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beli Makan</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&family=Nunito:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="assets/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/bm.ico">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- logo -->
+        <div class="wrapper">
+            <div class="logo">
+                <h1>BM.</h1>
+                <p>Beli Makan</p>
+            </div>
+            <!-- menu -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- hamburger menu -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner-slide">
+            <div class="wrapper">
+                <!-- image slider -->
+                <div class="slider">
+                    <div class="slides">
+                        <!-- radio buttons -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!--slide images -->
+                        <div class="slide first">
+                            <img src="assets/sate-ayam.jpg" alt="sate-ayam" title="sate-ayam">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/daging-bakar.jpg" alt="daging-bakar" title="daging-bakar">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/nasi-goreng.jpg" alt="nasi-goreng" title="nasi-goreng">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/ayam-goreng.jpg" alt="ayam-goreng" title="ayam-goreng">
+                        </div> -->
+                        <!-- automatic navigation -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <!-- manual navigation -->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- makanan favorit -->
+        <section class="makanan-favorit">
+            <div class="wrapper">
+                <div class="makanan-title">
+                    <h2>Makanan Terfavorit</h2>
+                    <div class="lihat-semua">
+                        <p>Lihat Semua</p>
+                        <img src="assets/ic_right_arrow_blue.svg" alt="icon-right" title="icon-right">
+                    </div>
+                </div>
+                <!-- card food -->
+                <div class="menu">
+                    <div class="food-card">
+                        <img src="assets/spagetti.jpg" alt="spagetti" title="spagetti">
+                        <h3 class="food-title">Spagetti</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consequatur nisi deleniti veritatis, eligendi excepturi natus eos eaque harum, dignissimos fugit earum 
+                        </p>
+                        <div class="buy">
+                            <h3 class="price">RP. 25.000,-</h3>
+                            <div class="buy-btn">
+                                    Beli
+                                    <img src="assets/cart 1.svg" alt="cart" title="Cart">
+                            </div>
+                        </div>
+                    </div>
+                    in
+                    <div class="food-card">
+                        <img src="assets/beef-lagsana.jpg" alt="Beef Lagsana" title="beef-lagsana">
+                        <h3 class="food-title">Beef Lagsana</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consequatur nisi deleniti veritatis, eligendi excepturi natus eos eaque harum, dignissimos fugit earum 
+                        </p>
+                        <div class="buy">
+                            <h3 class="price">RP. 54.000,-</h3>
+                            <div class="buy-btn">
+                                    Beli
+                                    <img src="assets/cart 1.svg" alt="cart" title="Cart">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card">
+                        <img src="assets/mie-goreng.jpg" alt="mie-goreng" title="mie-goreng">
+                        <h3 class="food-title">Mie Goreng</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, consequatur nisi deleniti veritatis, eligendi excepturi natus eos eaque harum, dignissimos fugit earum 
+                        </p>
+                        <div class="buy">
+                            <h3 class="price">RP. 12.000,-</h3>
+                            <div class="buy-btn">
+                                    Beli
+                                    <img src="assets/cart 1.svg" alt="cart" title="Cart">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+        <!-- langkah -->
+        <section class="step">
+            <div class="wrapper">
+                <!-- pilih menu -->
+                <div class="langkah wrapper">
+                    <div class="langkah-image">
+                        <img src="assets/pilih menu.svg" alt="pilih-menu" title="pilih-menu">
+                    </div>
+                    <div class="langkah-title wrapper">
+                        <div class="circle wrapper">
+                            <p>1</p>
+                        </div>
+                        <h3>Pilih Menu</h3>
+                    </div>
+                </div>
+                <!-- pembayaran -->
+                <div class="langkah wrapper">
+                    <div class="langkah-image">
+                        <img src="assets/bayar.svg" alt="bayar" title="bayar">
+                    </div>
+                    <div class="langkah-title wrapper">
+                        <div class="circle wrapper">
+                            <p>2</p>
+                        </div>
+                        <h3>Lakukan Pembayaran</h3>
+                    </div>
+                </div>
+                <!-- pengantaran -->
+                <div class="langkah wrapper">
+                    <div class="langkah-image">
+                        <img src="assets/delivery.png" alt="antar" title="antar">
+                    </div>
+                    <div class="langkah-title wrapper">
+                        <div class="circle wrapper">
+                            <p>3</p>
+                        </div>
+                        <h3>Proses Pengiriman</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="wrapper">
+                <div class="judul wrapper">
+                    <h1>BM<span>.</span></h1>
+                    <p>Beli Makan</p>
+                </div>
+                <div class="alamat">
+                    <h2>Alamat</h2>
+                    <div class="garis-alamat"></div>
+                    <p>Jl. Raya Siman No.Km.6, Dusun I, Siman, Kec.Siman, Kabupaten Ponorogo, Jawa Timur 63471</p>
+                </div>
+                <div class="sosial-media">
+                    <h2>Social Media</h2>
+                    <div class="garis-sosmed"></div>
+                    <div class="menu wrapper">
+                        <img src="assets/instagram (2) 1.svg" alt="instagram" title="instagram">
+                        <img src="assets/twitter.svg" alt="twitter" title="twitter">
+                        <img src="assets/facebook.svg" alt="facebook" title="facebook">    
+                    </div>                
+                </div>
+                <div class="contact-mobile">
+                    <div class="alamat-mobile">
+                        <h2>Alamat</h2>
+                        <div class="garis-alamat-mobile"></div>
+                        <p>Jl. Raya Siman No.Km.6, Dusun I, Siman, Kec.Siman, Kabupaten Ponorogo, Jawa Timur 63471</p>
+                    </div>
+                    <div class="sosial-media-mobile">
+                        <h2>Social Media</h2>
+                        <div class="garis-sosmed-mobile"></div>
+                        <div class="menu-mobile wrapper">
+                            <img src="assets/instagram (2) 1.svg" alt="instagram" title="instagram">
+                            <img src="assets/twitter.svg" alt="twitter" title="twitter">
+                            <img src="assets/facebook.svg" alt="facebook" title="facebook">    
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© Copyright 2020 | belimakanan.com - All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+@media screen and (max-width: 600px) {
+    /* header */
+    header .wrapper {
+        width: 95%;
+    }
+
+    header .logo h1 {
+        font-size: 30px;
+    }
+
+    header .logo p {
+        font-size: 9px;
+        margin-top: -5px;
+        letter-spacing: 2px;
+    }
+
+    header nav ul li {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    header nav ul li a:hover {
+        padding: 0;
+        background-color:#21D105;
+        color: white;
+    }
+
+    /* menu hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    } 
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    } 
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    } 
+
+    header nav ul {
+        display: none;
+    }
+    
+    header nav ul li {
+        margin: 16px 0; 
+    }
+    
+    header nav ul.active {
+        display: block;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        background-color: #21D105;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    /* slider */
+    .banner-slide {
+        margin-top: 50px;
+    }
+
+    .slider {
+        width: 500px;
+        height: 200px;
+        border-radius: 10px
+    }
+
+    .slides {
+        height: 200px;
+    }
+
+    .slide img {
+        width: 500px;
+        height: 200px;
+    }
+
+    /* navigation manual */
+    .navigation-manual {
+        width: 500px;
+        margin-top: 15px;
+    }
+
+    .manual-btn {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* navigation auto */
+    .navigation-auto {
+        width: 500px;
+        margin-top: 215px;
+    }
+
+    .navigation-auto div {
+        width: 12px;
+        height: 12px;
+    }
+
+    .navi-auto div:not(:last-child){
+        margin-right: 5px;
+    }
+    
+    /* makanan favorit */
+    .makanan-favorit {
+        margin-top: -150px;
+    }
+    .makanan-title h2 {
+        font-size: 20px;
+    }
+
+    .makanan-title img {
+        width: 18px;
+    }
+
+    .makanan-title p {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    /* menu */
+    .menu {
+        flex-direction: column;
+        row-gap: 25px;
+        margin: 0 auto;
+    }
+
+    /* langkah */
+
+    .step {
+        margin-top: 55px;
+    }
+
+    .step .wrapper {
+        justify-content: baseline;
+    }
+
+    .langkah .langkah-image img {
+        width: 69px;
+        margin-left: 20px;
+    }
+    
+    .langkah:nth-child(2) img {
+        width: 88px;
+    }
+    
+    .langkah:last-child img {
+        width: 79px;
+    }
+    
+    .langkah .langkah-title {
+        margin-top: 18px;
+    }
+    
+    .langkah .langkah-title .circle {
+        background-color: #27C4D3;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        margin-right: 2px;
+    }
+    
+    .langkah .langkah-title p {
+        align-self: center;
+        font-size: 11px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+    }
+    
+    .langkah .langkah-title h3 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /* contact */
+    .contact {
+        padding: 0 20px 50px 20px;
+    }
+
+    .contact .wrapper {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .contact .judul {
+        width: 100%;
+    }
+
+    .contact .judul h1 {
+        font-size: 50px;
+    }
+
+    .contact .alamat, .contact .sosial-media {
+        display: none;
+    }
+
+    .contact .judul p {
+        font-size: 14px;
+        margin-top: -7px;
+        margin-left: 35px;
+    }
+
+    .contact .contact-mobile {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -20px
+    }
+
+   .contact .contact-mobile .alamat-mobile h2, .contact       .contact-mobile .sosial-media-mobile h2 {
+        font-size: 16px;
+    }
+
+    .contact .contact-mobile .alamat-mobile .garis-alamat-mobile, .contact .contact-mobile .sosial-media-mobile .garis-sosmed-mobile {
+        border-bottom: 4px solid #F19429;
+        width: 70px;
+        padding-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .contact .contact-mobile .alamat-mobile {
+        width: 37%;
+    }
+
+    .contact .contact-mobile .alamat-mobile p {
+        font-size: 12px;
+    }
+
+    .contact .contact-mobile .sosial-media-mobile img {
+        width: 23px;
+    }
+
+    .contact .contact-mobile .sosial-media-mobile .menu-mobile.wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* footer */
+    footer {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+
